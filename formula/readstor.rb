@@ -22,6 +22,6 @@ class Readstor < Formula
   end
 
   def install
-    bin.install "test-readstor"
+    bin.install "readstor"
   end
 end
