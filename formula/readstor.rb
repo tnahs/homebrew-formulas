@@ -5,19 +5,19 @@
 class Readstor < Formula
   desc "Cli for apple books annotations"
   homepage "https://github.com/tnahs/readstor"
-  url "https://github.com/tnahs/readstor/archive/v0.4.1.tar.gz"
-  sha256 "e1ac30967ff79e4317e9dddd9c812a4282d55bc88224ced5665d85f4b609c39d"
+  url "https://github.com/tnahs/readstor/archive/v0.5.0.tar.gz"
+  sha256 "cebe6cf5e69a12d66dc36832559f6de9db13ea837b2d39ef84f8865012ae9d13"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/tnahs/readstor/releases/download/v0.4.1/readstor-0.4.1-darwin-amd64.tar.gz"
-      sha256 "09e6f849f6d88b5f0b8e96533dd4204624642991cad8315f26af33e9a942b635"
+      url "https://github.com/tnahs/readstor/releases/download/v0.5.0/readstor-0.5.0-darwin-amd64.tar.gz"
+      sha256 "66820cd52944b855821c54f0ed5fd283988d19d726b95514a1363cddd1421e0a"
     end
 
     on_arm do
-      url "https://github.com/tnahs/readstor/releases/download/v0.4.1/readstor-0.4.1-darwin-arm64.tar.gz"
-      sha256 "aaba58bbee30433e08174a719dda6aa4236ed8f1d1ea079b1483855bcc00bd21"
+      url "https://github.com/tnahs/readstor/releases/download/v0.5.0/readstor-0.5.0-darwin-arm64.tar.gz"
+      sha256 "cc408d329be209e87858b5b081a6aa64aef35571ec022bfa7304c5e7e8edc42a"
     end
   end
 
